@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/txtCaptura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha de captura"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/txtEntrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha de entrega"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Captura evidencia" />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="317dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/camara" />
+
+    <Button
+        android:id="@+id/btnActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capturar actividad" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar actividad" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar actividad" />
+
+
+</LinearLayout>
